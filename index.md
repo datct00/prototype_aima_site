@@ -3,7 +3,7 @@
 
 # AIMA's Website
 
-An engaging 1-3 sentence description of your lab.
+Our lab focuses on advancing artificial intelligence methods for scientific discovery and real-world impact. We develop principled machine learning and deep learning approaches, with an emphasis on robust representation learning, optimization, and generalization. Our research bridges theory and practice, aiming to design algorithms that are both mathematically grounded and empirically effective across diverse applications..
 
 {% include section.html %}
 

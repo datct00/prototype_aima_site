@@ -5,6 +5,8 @@
 
 Our lab focuses on advancing artificial intelligence methods for scientific discovery and real-world impact. We develop principled machine learning and deep learning approaches, with an emphasis on robust representation learning, optimization, and generalization. Our research bridges theory and practice, aiming to design algorithms that are both mathematically grounded and empirically effective across diverse applications..
 
+{% include image-slider.html id="main-slider" images=site.data.banner-images.images %}
+
 {% include section.html %}
 
 ## Highlights

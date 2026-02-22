@@ -3,11 +3,6 @@ name: Thanh-Huy (Harvey) Nguyen
 image: images/photo.jpg
 role: founder
 affiliation: CMU
-<!--
-aliases:
-  - J. Smith
-  - J Smith
--->
 links:
   home-page: https://thanh-huy-nguyen.github.io/
   orcid: 0000-0001-8713-9213

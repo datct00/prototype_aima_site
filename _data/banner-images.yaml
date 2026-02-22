@@ -1,7 +1,5 @@
 images:
-  - images/homepage-banner/banner1.jpg
-  - images/homepage-banner/banner2.jpg
-  - images/homepage-banner/banner3.jpg
-  - images/homepage-banner/banner4.jpg
-  - images/homepage-banner/banner5.jpg
-  - images/homepage-banner/banner6.jpg
+  - images/papers/cvpr.jpg
+  - images/papers/iccv.png
+  - images/papers/media.png
+  - images/papers/midl.jpg

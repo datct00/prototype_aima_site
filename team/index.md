@@ -15,6 +15,9 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ## Founder 
 {% include list.html data="members" component="portrait" filter="role == 'founder'" %}
 
+## Leader
+{% include list.html data="members" component="portrait" filter="role == 'leader'" %}
+
 ## Mentor
 {% include list.html data="members" component="portrait" filter="role == 'mentor'" %}
 

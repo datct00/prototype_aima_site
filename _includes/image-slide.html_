@@ -1,0 +1,20 @@
+<div class="image-slider">    
+    <div class="slider-background">
+        <div class="slider-container">
+            <div class="slider" id="{{ include.id | default: 'main-slider' }}">
+                {% for image in include.images %}
+                    <div class="slide">
+                        <img src="{{ image | relative_url }}" alt="Slide {{ forloop.index }}">
+                    </div>
+                {% endfor %}
+            </div>
+            <button class="slider-prev" aria-label="Previous slide">❮</button>
+            <button class="slider-next" aria-label="Next slide">❯</button>
+        </div>
+        <div class="dots-container">
+            {% for image in include.images %}
+                <span class="dot" data-index="{{ forloop.index0 }}"></span>
+            {% endfor %}
+        </div>
+    </div>
+</div>

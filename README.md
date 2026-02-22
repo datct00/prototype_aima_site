@@ -5,6 +5,6 @@
 
   # datct00's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[datct00.github.io/prototype_aima_site](https://datct00.github.io/prototype_aima_site)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_

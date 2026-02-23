@@ -41,7 +41,14 @@
         {{ member.description | default: type.description }}
       </span>
     {% endif %}
+    
+    {% if member.startyear %}
+      <span class="portrait-startyear">
+        {{ member.startyear }}
+      </span>
+    {% endif %}
 
+    
     {% if member.affiliation %}
       <span class="portrait-affiliation">
         {{ member.affiliation }}

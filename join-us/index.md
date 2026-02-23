@@ -16,7 +16,7 @@ If you are a Vietnamese undergraduate or master’s student, or an AIO member, a
 {% capture lorem %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endcapture %}
-{% capture content %}**Tips:** {{ lorem }}{% endcapture %}
+{% capture content %}**Tip:** {{ lorem }}{% endcapture %}
 {%
   include alert.html
   type="tip"
@@ -28,13 +28,54 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% capture lorem %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endcapture %}
-{% capture content %}**Helps:** {{ lorem }}{% endcapture %}
+{% capture content %}**Help:** {{ lorem }}{% endcapture %}
 {%
   include alert.html
   type="help"
   content=content
 %}
 
+{% capture lorem %}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% endcapture %}
+{% capture content %}**Info:** {{ lorem }}{% endcapture %}
+{%
+  include alert.html
+  type="info"
+  content=content
+%}
+
+
+{% capture lorem %}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% endcapture %}
+{% capture content %}**Success:** {{ lorem }}{% endcapture %}
+{%
+  include alert.html
+  type="success"
+  content=content
+%}
+
+
+{% capture lorem %}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% endcapture %}
+{% capture content %}**Warning:** {{ lorem }}{% endcapture %}
+{%
+  include alert.html
+  type="warning"
+  content=content
+%}
+
+
+{% capture lorem %}
+**Error:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% endcapture %}
+{%
+  include alert.html
+  type="error"
+  content=content
+%}
 
 <!--
 {%

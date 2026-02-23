@@ -23,7 +23,7 @@
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
 
 #Our papers
-- id: doi.org/10.48550/arXiv.2601.16954
+- id: arXiv:2601.16954
   type: paper
   #description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   date: 2026-1-23

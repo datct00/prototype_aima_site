@@ -1,4 +1,9 @@
-
+---
+title: Home
+nav:
+  order: 1
+  tooltip: Homepage
+---
 
 # AIMA's Website
 

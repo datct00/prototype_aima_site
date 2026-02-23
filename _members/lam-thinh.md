@@ -2,6 +2,7 @@
 name: Thinh-Ba Lam
 image: images/photo.jpg
 role: leader
+enteryear: 2023
 affiliation: CMU
 links:
   home-page: https://thanh-huy-nguyen.github.io/

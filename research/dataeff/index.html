@@ -489,7 +489,148 @@
   <size></size>
 -->
 
-<h2 id="segment-anything-model-under-noisy-medical-radiology-imaging-conditions">Segment Anything Model under Noisy Medical Radiology Imaging Conditions</h2>
+<h1 id="segment-anything-model-under-noisy-medical-radiology-imaging-conditions">Segment Anything Model under Noisy Medical Radiology Imaging Conditions</h1>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>Recent advances in Segment Anything Models (SAM) have demonstrated strong generalization across natural images, and more recently, across medical imaging domains through variants such as <strong>MedSAM</strong> and <strong>SAM2</strong>. However, the robustness of these models under realistic noisy medical imaging conditions remains insufficiently studied.</p>
+
+<p>This project aims to systematically evaluate the robustness, stability, and failure modes of SAM-based models on 2D medical imaging datasets under controlled noise perturbations, simulating common acquisition artifacts encountered in clinical practice.</p>
+
+<p>The final objective is to produce a high-quality benchmark study suitable for submission to a CVPR workshop, followed by an extended version targeting a Q1 journal.</p>
+
+<hr>
+
+<h2 id="research-objectives">Research Objectives</h2>
+
+<h3 id="1-robustness-evaluation">1. Robustness Evaluation</h3>
+<p>Assess how different SAM-based models perform when medical images are corrupted by various noise and artifact types.</p>
+
+<h3 id="2-noise-sensitivity-analysis">2. Noise Sensitivity Analysis</h3>
+<p>Quantify segmentation degradation under increasing noise levels and identify noise types that most significantly impact performance.</p>
+
+<h3 id="3-model-comparison">3. Model Comparison</h3>
+<p>Benchmark and compare:</p>
+<ul>
+  <li>Original SAM</li>
+  <li>SAM2</li>
+  <li>Medical-domain adaptations (e.g., MedSAM and other public variants)</li>
+</ul>
+
+<h3 id="4-visualization-and-interpretability">4. Visualization and Interpretability</h3>
+<p>Provide qualitative visualizations to reveal:</p>
+<ul>
+  <li>Failure modes</li>
+  <li>Boundary instability</li>
+  <li>Confidence degradation under noise</li>
+</ul>
+
+<h3 id="5-scientific-dissemination">5. Scientific Dissemination</h3>
+<p>Package the findings into:</p>
+<ul>
+  <li>A CVPR workshop paper (short-term milestone)</li>
+  <li>An extended Q1 journal submission (long-term milestone)</li>
+</ul>
+
+<hr>
+
+<h2 id="methodology">Methodology</h2>
+
+<h3 id="1-dataset-preparation">1. Dataset Preparation</h3>
+<ul>
+  <li>Select 2D medical imaging datasets (e.g., X-ray, fundus, ultrasound, CT slices, or MRI slices).</li>
+  <li>Ensure consistent modality in the first phase to enable controlled analysis.</li>
+</ul>
+
+<h3 id="2-noise-injection--artifact-simulation">2. Noise Injection &amp; Artifact Simulation</h3>
+
+<p>Synthetic noise and artifact perturbations will be introduced during preprocessing, such as:</p>
+
+<ul>
+  <li>Gaussian noise</li>
+  <li>Poisson noise</li>
+  <li>Salt-and-pepper noise</li>
+  <li>Motion blur</li>
+  <li>Intensity inhomogeneity</li>
+  <li>Low-contrast degradation</li>
+</ul>
+
+<p>Noise levels will be systematically varied to simulate mild to severe acquisition artifacts.</p>
+
+<h3 id="3-model-benchmarking">3. Model Benchmarking</h3>
+<ul>
+  <li>Apply SAM-based models using prompt-based and/or automatic settings.</li>
+  <li>Keep inference settings consistent to ensure fair comparison.</li>
+  <li>Evaluate robustness across noise types and intensities.</li>
+</ul>
+
+<h3 id="4-evaluation-metrics">4. Evaluation Metrics</h3>
+<ul>
+  <li>Dice coefficient</li>
+  <li>IoU (Jaccard index)</li>
+  <li>Boundary-based metrics (e.g., Hausdorff Distance)</li>
+  <li>Stability metrics across noise levels</li>
+  <li>Optional confidence/entropy-based analysis</li>
+</ul>
+
+<h3 id="5-visualization--analysis">5. Visualization &amp; Analysis</h3>
+<ul>
+  <li>Side-by-side qualitative comparisons</li>
+  <li>Failure case analysis</li>
+  <li>Sensitivity plots showing performance degradation trends</li>
+</ul>
+
+<hr>
+
+<h2 id="timeline-6-months-total">Timeline (6 Months Total)</h2>
+
+<h3 id="phase-1-cvpr-workshop-target-months-13">Phase 1: CVPR Workshop Target (Months 1–3)</h3>
+
+<p><strong>Goal:</strong> Produce a concise, well-controlled benchmark study.</p>
+
+<ul>
+  <li>Run experiments on 2 datasets of the same modality</li>
+  <li>Evaluate a limited but representative set of:
+    <ul>
+      <li>SAM models</li>
+      <li>Noise types</li>
+    </ul>
+  </li>
+  <li>Generate quantitative results and qualitative visualizations</li>
+  <li>Write and submit a CVPR workshop paper</li>
+</ul>
+
+<p><strong>Compute Resources:</strong></p>
+<ul>
+  <li>Google Colab</li>
+  <li>Kaggle</li>
+</ul>
+
+<hr>
+
+<h3 id="phase-2-q1-journal-target-months-46">Phase 2: Q1 Journal Target (Months 4–6)</h3>
+
+<p><strong>Goal:</strong> Extend and deepen the study for journal-level contribution.</p>
+
+<ul>
+  <li>Expand to 4–5 datasets, possibly across modalities</li>
+  <li>Include additional:
+    <ul>
+      <li>SAM variants</li>
+      <li>Conventional models</li>
+      <li>Extended types of noise injection methods</li>
+      <li>Robustness and stability metrics</li>
+    </ul>
+  </li>
+  <li>Add deeper analysis and discussion on clinical relevance</li>
+  <li>Prepare and submit to a Q1 journal</li>
+</ul>
+
+<p><strong>Compute Resources:</strong></p>
+<ul>
+  <li>AIVN GPU infrastructure</li>
+  <li>Private server GPUs</li>
+</ul>
 
 <h2 id="segment-anything-model-sam-under-occluded-medical-imaging-conditions">Segment Anything Model (SAM) under Occluded Medical Imaging Conditions</h2>
   </section>

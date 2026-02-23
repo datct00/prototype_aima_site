@@ -1,6 +1,6 @@
 ---
 name: Thanh-Huy (Harvey) Nguyen
-image: images/photo.jpg
+image: images/members/myava.jpg
 role: founder
 affiliation: CMU
 links:

@@ -263,3 +263,34 @@
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   plugin: sources.py
   file: sources.yaml
+- id: https://doi.org/10.48550/arXiv.2601.16954
+  title: Domain-invariant Mixed-domain Semi-supervised Medical Image Segmentation
+    with Clustered Maximum Mean Discrepancy Alignment
+  authors:
+  - Ba-Thinh Lam
+  - Thanh-Huy Nguyen
+  - Hoang-Thien Nguyen
+  - Quang-Khai Bui-Tran
+  - Nguyen Lan Vi Vu
+  - Phat K. Huynh
+  - Ulas Bagci
+  - Min Xu
+  publisher: arXiv
+  date: '2026-01-23'
+  link: http://arxiv.org/abs/2601.16954
+  type: paper
+  image: images/conf/cpm.png
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/meta-review/
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  repo: greenelab/meta-review
+  plugin: sources.py
+  file: sources.yaml

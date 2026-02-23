@@ -294,3 +294,34 @@
   repo: greenelab/meta-review
   plugin: sources.py
   file: sources.yaml
+- id: arXiv:2510.25227
+  title: 'Aligning What You Separate: Denoised Patch Mixing for Source-Free Domain
+    Adaptation in Medical Image Segmentation'
+  authors:
+  - Quang-Khai Bui-Tran
+  - Thanh-Huy Nguyen
+  - Hoang-Thien Nguyen
+  - Ba-Thinh Lam
+  - Nguyen Lan Vi Vu
+  - Phat K. Huynh
+  - Ulas Bagci
+  - Min Xu
+  publisher: 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
+  date: '2026-01-23'
+  link: https://arxiv.org/abs/2510.25227
+  type: paper
+  image: images/conf/aligh_what_you_seperate.png
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/meta-review/
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  repo: greenelab/meta-review
+  plugin: sources.py
+  file: sources.yaml

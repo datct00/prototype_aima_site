@@ -1,6 +1,6 @@
 ---
 name: Thinh-Ba Lam
-image: images/photo.jpg
+image: images/LBT.jpg
 role: leader
 enteryear: 2023
 affiliation: CMU

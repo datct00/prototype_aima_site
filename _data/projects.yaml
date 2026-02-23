@@ -1,47 +1,43 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+#- title: Cool Dataset
+#  subtitle: a subtitle
+#  group: featured
+#  image: images/photo.jpg
+#  link: https://github.com/
+#  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#  repo: greenelab/lab-website-template
+#  tags:
+#    - resource
+
+- title: Robust & Data-Efficient Learning in Medical AI
+  subtitle: a subtitle of Robust & Data-Efficient Learning in Medical AI
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  link: research/dataeff
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  #repo: greenelab/lab-website-template
   tags:
-    - resource
+    - vision
+    - language
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Medical Image Computing & Foundation Models
+  subtitle: a subtitle of Medical Image Computing & Foundation Models
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  link: research/mic
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  #repo: greenelab/lab-website-template
   tags:
-    - resource
+    - vision
+    - language
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: Translating AI into Clinical Impact
+  subtitle: a subtitle of Translating AI into Clinical Impact
+  group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  link: research/translate
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  #repo: greenelab/lab-website-template
   tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - vision
+    - language

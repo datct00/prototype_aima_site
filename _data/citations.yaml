@@ -279,7 +279,7 @@
   date: '2026-01-23'
   link: https://arxiv.org/abs/2601.16954
   type: paper
-  image: /images/conf/cpm.png
+  image: images/conf/cpm.png
   buttons:
   - type: manubot
     link: https://greenelab.github.io/meta-review/

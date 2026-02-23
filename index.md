@@ -5,6 +5,7 @@ nav:
   tooltip: Homepage
 ---
 
+{% include section.html %}
 # AIMA's Website
 
 Our lab focuses on advancing artificial intelligence methods for scientific discovery and real-world impact. We develop principled machine learning and deep learning approaches, with an emphasis on robust representation learning, optimization, and generalization. Our research bridges theory and practice, aiming to design algorithms that are both mathematically grounded and empirically effective across diverse applications..

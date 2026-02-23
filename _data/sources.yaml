@@ -41,3 +41,23 @@
     - open science
     - collaboration
   repo: greenelab/meta-review
+
+- id: arXiv:2510.25227
+  publisher: 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
+  type: paper
+  #description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  date: 2026-1-23
+  image: 'images/conf/aligh_what_you_seperate.png'
+  buttons:
+    - type: manubot
+      link: https://greenelab.github.io/meta-review/
+    - type: source
+      text: Manuscript Source
+      link: https://github.com/greenelab/meta-review
+    - type: website
+      link: http://manubot.org/
+  tags:
+    - open science
+    - collaboration
+  repo: greenelab/meta-review
+  

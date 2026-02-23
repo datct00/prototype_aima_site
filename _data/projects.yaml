@@ -11,7 +11,7 @@
 - title: Robust & Data-Efficient Learning in Medical AI
   subtitle: a subtitle of Robust & Data-Efficient Learning in Medical AI
   group: featured
-  image: images/photo.jpg
+  image: images/projects/sam.png
   link: research/dataeff
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   #repo: greenelab/lab-website-template
@@ -22,7 +22,7 @@
 - title: Medical Image Computing & Foundation Models
   subtitle: a subtitle of Medical Image Computing & Foundation Models
   group: featured
-  image: images/photo.jpg
+  image: images/projects/sam.png
   link: research/mic
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   #repo: greenelab/lab-website-template
@@ -34,7 +34,7 @@
 - title: Translating AI into Clinical Impact
   subtitle: a subtitle of Translating AI into Clinical Impact
   group: featured
-  image: images/photo.jpg
+  image: images/projects/sam.png
   link: research/translate
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   #repo: greenelab/lab-website-template
